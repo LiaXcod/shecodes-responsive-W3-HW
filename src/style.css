@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 100px 20px;
 }
 
 h1,
@@ -94,12 +94,11 @@ p {
     text-align: center;
     font-size: 16px;
   }
-  img {
-    display: none;
-  }
-  .primary-link.app {
+
+  .app {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin: 0 20px;
   }
 }
