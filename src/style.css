@@ -79,3 +79,20 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 500px) {
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+  }
+  img {
+    display: none;
+  }
+  .primary-link.app {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
